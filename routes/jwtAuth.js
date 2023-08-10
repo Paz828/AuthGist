@@ -74,4 +74,4 @@ router.get("/verify", authorization, async (req, res) => {
   }
 });
 
-export default router;
+export { router as userRouter };
