@@ -7,6 +7,7 @@ app.use(express.json());
 const PORT = 3001;
 
 app.use("/api/auth", router);
+app.use("/api/admin", router);
 
 app.listen(PORT, () => {
   console.log("Listening on port:", PORT);
